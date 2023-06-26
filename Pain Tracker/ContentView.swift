@@ -31,18 +31,18 @@ struct ContentView: View {
             }
         }
         .sheet(isPresented: $isPresentingNewScrumView) {
-            NewEntrySheet(isPresentingNewEntryView: $isPresentingNewScrumView, callback: recordEntry)
+            NewEntrySheet(isPresentingNewEntryView: $isPresentingNewScrumView, callback: save)
         }
     }
     
-    private func recordEntry(newEntry: Entry) {
+    private func save(newEntry: Entry) {
         withAnimation {
             modelContext.insert(newEntry)
         }
         
     }
     
-    private func deleteEntries(offsets: IndexSet) {
+    private func delete(offsets: IndexSet) {
         withAnimation {
             for index in offsets {
                 modelContext.delete(entries[index])
