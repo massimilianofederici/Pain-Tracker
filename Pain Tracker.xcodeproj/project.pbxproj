@@ -1,0 +1,635 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD86C6372A486E9400B1E08F /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD86C6362A486E9300B1E08F /* CardView.swift */; };
+		CD86C6392A487B8300B1E08F /* TrailingIconLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD86C6382A487B8300B1E08F /* TrailingIconLabelStyle.swift */; };
+		CDEA8FF22A48D09E007B42BC /* NewEntrySheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEA8FF12A48D09E007B42BC /* NewEntrySheet.swift */; };
+		CDEA8FF42A48D158007B42BC /* DetailEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEA8FF32A48D158007B42BC /* DetailEditView.swift */; };
+		CDF9ED662A475C7D00DC0CBF /* Pain_TrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF9ED652A475C7D00DC0CBF /* Pain_TrackerApp.swift */; };
+		CDF9ED682A475C7D00DC0CBF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF9ED672A475C7D00DC0CBF /* ContentView.swift */; };
+		CDF9ED6A2A475C7E00DC0CBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDF9ED692A475C7E00DC0CBF /* Assets.xcassets */; };
+		CDF9ED6D2A475C7E00DC0CBF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDF9ED6C2A475C7E00DC0CBF /* Preview Assets.xcassets */; };
+		CDF9ED792A475C7E00DC0CBF /* Pain_TrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF9ED782A475C7E00DC0CBF /* Pain_TrackerTests.swift */; };
+		CDF9ED832A475C7E00DC0CBF /* Pain_TrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF9ED822A475C7E00DC0CBF /* Pain_TrackerUITests.swift */; };
+		CDF9ED852A475C7E00DC0CBF /* Pain_TrackerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF9ED842A475C7E00DC0CBF /* Pain_TrackerUITestsLaunchTests.swift */; };
+		CDF9ED922A47694A00DC0CBF /* Entry.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF9ED912A47694A00DC0CBF /* Entry.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CDF9ED752A475C7E00DC0CBF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDF9ED5A2A475C7D00DC0CBF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDF9ED612A475C7D00DC0CBF;
+			remoteInfo = "Pain Tracker";
+		};
+		CDF9ED7F2A475C7E00DC0CBF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDF9ED5A2A475C7D00DC0CBF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDF9ED612A475C7D00DC0CBF;
+			remoteInfo = "Pain Tracker";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD86C6362A486E9300B1E08F /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		CD86C6382A487B8300B1E08F /* TrailingIconLabelStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrailingIconLabelStyle.swift; sourceTree = "<group>"; };
+		CDEA8FF12A48D09E007B42BC /* NewEntrySheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewEntrySheet.swift; sourceTree = "<group>"; };
+		CDEA8FF32A48D158007B42BC /* DetailEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailEditView.swift; sourceTree = "<group>"; };
+		CDF9ED622A475C7D00DC0CBF /* Pain Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pain Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDF9ED652A475C7D00DC0CBF /* Pain_TrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pain_TrackerApp.swift; sourceTree = "<group>"; };
+		CDF9ED672A475C7D00DC0CBF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CDF9ED692A475C7E00DC0CBF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CDF9ED6C2A475C7E00DC0CBF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CDF9ED742A475C7E00DC0CBF /* Pain TrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pain TrackerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDF9ED782A475C7E00DC0CBF /* Pain_TrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pain_TrackerTests.swift; sourceTree = "<group>"; };
+		CDF9ED7E2A475C7E00DC0CBF /* Pain TrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pain TrackerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDF9ED822A475C7E00DC0CBF /* Pain_TrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pain_TrackerUITests.swift; sourceTree = "<group>"; };
+		CDF9ED842A475C7E00DC0CBF /* Pain_TrackerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pain_TrackerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CDF9ED912A47694A00DC0CBF /* Entry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entry.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CDF9ED5F2A475C7D00DC0CBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDF9ED712A475C7E00DC0CBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDF9ED7B2A475C7E00DC0CBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD86C6342A486E0E00B1E08F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CDF9ED912A47694A00DC0CBF /* Entry.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CD86C6352A486E6E00B1E08F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CD86C6382A487B8300B1E08F /* TrailingIconLabelStyle.swift */,
+				CD86C6362A486E9300B1E08F /* CardView.swift */,
+				CDEA8FF12A48D09E007B42BC /* NewEntrySheet.swift */,
+				CDEA8FF32A48D158007B42BC /* DetailEditView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CDF9ED592A475C7D00DC0CBF = {
+			isa = PBXGroup;
+			children = (
+				CDF9ED642A475C7D00DC0CBF /* Pain Tracker */,
+				CDF9ED772A475C7E00DC0CBF /* Pain TrackerTests */,
+				CDF9ED812A475C7E00DC0CBF /* Pain TrackerUITests */,
+				CDF9ED632A475C7D00DC0CBF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CDF9ED632A475C7D00DC0CBF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CDF9ED622A475C7D00DC0CBF /* Pain Tracker.app */,
+				CDF9ED742A475C7E00DC0CBF /* Pain TrackerTests.xctest */,
+				CDF9ED7E2A475C7E00DC0CBF /* Pain TrackerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CDF9ED642A475C7D00DC0CBF /* Pain Tracker */ = {
+			isa = PBXGroup;
+			children = (
+				CD86C6352A486E6E00B1E08F /* Views */,
+				CD86C6342A486E0E00B1E08F /* Models */,
+				CDF9ED652A475C7D00DC0CBF /* Pain_TrackerApp.swift */,
+				CDF9ED672A475C7D00DC0CBF /* ContentView.swift */,
+				CDF9ED692A475C7E00DC0CBF /* Assets.xcassets */,
+				CDF9ED6B2A475C7E00DC0CBF /* Preview Content */,
+			);
+			path = "Pain Tracker";
+			sourceTree = "<group>";
+		};
+		CDF9ED6B2A475C7E00DC0CBF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CDF9ED6C2A475C7E00DC0CBF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CDF9ED772A475C7E00DC0CBF /* Pain TrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				CDF9ED782A475C7E00DC0CBF /* Pain_TrackerTests.swift */,
+			);
+			path = "Pain TrackerTests";
+			sourceTree = "<group>";
+		};
+		CDF9ED812A475C7E00DC0CBF /* Pain TrackerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CDF9ED822A475C7E00DC0CBF /* Pain_TrackerUITests.swift */,
+				CDF9ED842A475C7E00DC0CBF /* Pain_TrackerUITestsLaunchTests.swift */,
+			);
+			path = "Pain TrackerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CDF9ED612A475C7D00DC0CBF /* Pain Tracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDF9ED882A475C7E00DC0CBF /* Build configuration list for PBXNativeTarget "Pain Tracker" */;
+			buildPhases = (
+				CDF9ED5E2A475C7D00DC0CBF /* Sources */,
+				CDF9ED5F2A475C7D00DC0CBF /* Frameworks */,
+				CDF9ED602A475C7D00DC0CBF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pain Tracker";
+			productName = "Pain Tracker";
+			productReference = CDF9ED622A475C7D00DC0CBF /* Pain Tracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CDF9ED732A475C7E00DC0CBF /* Pain TrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDF9ED8B2A475C7E00DC0CBF /* Build configuration list for PBXNativeTarget "Pain TrackerTests" */;
+			buildPhases = (
+				CDF9ED702A475C7E00DC0CBF /* Sources */,
+				CDF9ED712A475C7E00DC0CBF /* Frameworks */,
+				CDF9ED722A475C7E00DC0CBF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDF9ED762A475C7E00DC0CBF /* PBXTargetDependency */,
+			);
+			name = "Pain TrackerTests";
+			productName = "Pain TrackerTests";
+			productReference = CDF9ED742A475C7E00DC0CBF /* Pain TrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CDF9ED7D2A475C7E00DC0CBF /* Pain TrackerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDF9ED8E2A475C7E00DC0CBF /* Build configuration list for PBXNativeTarget "Pain TrackerUITests" */;
+			buildPhases = (
+				CDF9ED7A2A475C7E00DC0CBF /* Sources */,
+				CDF9ED7B2A475C7E00DC0CBF /* Frameworks */,
+				CDF9ED7C2A475C7E00DC0CBF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDF9ED802A475C7E00DC0CBF /* PBXTargetDependency */,
+			);
+			name = "Pain TrackerUITests";
+			productName = "Pain TrackerUITests";
+			productReference = CDF9ED7E2A475C7E00DC0CBF /* Pain TrackerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CDF9ED5A2A475C7D00DC0CBF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					CDF9ED612A475C7D00DC0CBF = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					CDF9ED732A475C7E00DC0CBF = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = CDF9ED612A475C7D00DC0CBF;
+					};
+					CDF9ED7D2A475C7E00DC0CBF = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = CDF9ED612A475C7D00DC0CBF;
+					};
+				};
+			};
+			buildConfigurationList = CDF9ED5D2A475C7D00DC0CBF /* Build configuration list for PBXProject "Pain Tracker" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CDF9ED592A475C7D00DC0CBF;
+			productRefGroup = CDF9ED632A475C7D00DC0CBF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CDF9ED612A475C7D00DC0CBF /* Pain Tracker */,
+				CDF9ED732A475C7E00DC0CBF /* Pain TrackerTests */,
+				CDF9ED7D2A475C7E00DC0CBF /* Pain TrackerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CDF9ED602A475C7D00DC0CBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDF9ED6D2A475C7E00DC0CBF /* Preview Assets.xcassets in Resources */,
+				CDF9ED6A2A475C7E00DC0CBF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDF9ED722A475C7E00DC0CBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDF9ED7C2A475C7E00DC0CBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CDF9ED5E2A475C7D00DC0CBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDF9ED922A47694A00DC0CBF /* Entry.swift in Sources */,
+				CDF9ED682A475C7D00DC0CBF /* ContentView.swift in Sources */,
+				CDEA8FF42A48D158007B42BC /* DetailEditView.swift in Sources */,
+				CD86C6372A486E9400B1E08F /* CardView.swift in Sources */,
+				CDEA8FF22A48D09E007B42BC /* NewEntrySheet.swift in Sources */,
+				CD86C6392A487B8300B1E08F /* TrailingIconLabelStyle.swift in Sources */,
+				CDF9ED662A475C7D00DC0CBF /* Pain_TrackerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDF9ED702A475C7E00DC0CBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDF9ED792A475C7E00DC0CBF /* Pain_TrackerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDF9ED7A2A475C7E00DC0CBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDF9ED832A475C7E00DC0CBF /* Pain_TrackerUITests.swift in Sources */,
+				CDF9ED852A475C7E00DC0CBF /* Pain_TrackerUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CDF9ED762A475C7E00DC0CBF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDF9ED612A475C7D00DC0CBF /* Pain Tracker */;
+			targetProxy = CDF9ED752A475C7E00DC0CBF /* PBXContainerItemProxy */;
+		};
+		CDF9ED802A475C7E00DC0CBF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDF9ED612A475C7D00DC0CBF /* Pain Tracker */;
+			targetProxy = CDF9ED7F2A475C7E00DC0CBF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CDF9ED862A475C7E00DC0CBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CDF9ED872A475C7E00DC0CBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CDF9ED892A475C7E00DC0CBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Pain Tracker/Preview Content\"";
+				DEVELOPMENT_TEAM = GTCU4JURWU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Pain Tracker";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "massimiliano.federici.Pain-Tracker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CDF9ED8A2A475C7E00DC0CBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Pain Tracker/Preview Content\"";
+				DEVELOPMENT_TEAM = GTCU4JURWU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Pain Tracker";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "massimiliano.federici.Pain-Tracker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CDF9ED8C2A475C7E00DC0CBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GTCU4JURWU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "massimiliano.federici.Pain-TrackerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pain Tracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Pain Tracker";
+			};
+			name = Debug;
+		};
+		CDF9ED8D2A475C7E00DC0CBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GTCU4JURWU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "massimiliano.federici.Pain-TrackerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pain Tracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Pain Tracker";
+			};
+			name = Release;
+		};
+		CDF9ED8F2A475C7E00DC0CBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GTCU4JURWU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "massimiliano.federici.Pain-TrackerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Pain Tracker";
+			};
+			name = Debug;
+		};
+		CDF9ED902A475C7E00DC0CBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GTCU4JURWU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "massimiliano.federici.Pain-TrackerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Pain Tracker";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CDF9ED5D2A475C7D00DC0CBF /* Build configuration list for PBXProject "Pain Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDF9ED862A475C7E00DC0CBF /* Debug */,
+				CDF9ED872A475C7E00DC0CBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDF9ED882A475C7E00DC0CBF /* Build configuration list for PBXNativeTarget "Pain Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDF9ED892A475C7E00DC0CBF /* Debug */,
+				CDF9ED8A2A475C7E00DC0CBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDF9ED8B2A475C7E00DC0CBF /* Build configuration list for PBXNativeTarget "Pain TrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDF9ED8C2A475C7E00DC0CBF /* Debug */,
+				CDF9ED8D2A475C7E00DC0CBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDF9ED8E2A475C7E00DC0CBF /* Build configuration list for PBXNativeTarget "Pain TrackerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDF9ED8F2A475C7E00DC0CBF /* Debug */,
+				CDF9ED902A475C7E00DC0CBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CDF9ED5A2A475C7D00DC0CBF /* Project object */;
+}
