@@ -26,13 +26,13 @@ struct DetailEditView: View {
                         minimumValueLabel: Text("\(PainLevel.noPain.rawValue)"),
                         maximumValueLabel: Text("\(PainLevel.unableToMove.rawValue)"), label: { }
                     )
-                    Text("\(PainLevel(rawValue: Int(intensity))!.name)")
+                    Text("\(PainLevel(rawValue: Int(intensity))!.name) - \(Int(intensity))")
                 }
                 DatePicker(
-                        "Date",
+                        "",
                         selection: $date,
-                        displayedComponents: [.date]
-                    )
+                        displayedComponents: [.date, .hourAndMinute]
+                ).datePickerStyle(.graphical)
                 TextField("Location", text: $entry.location)
                 TextField("Movement", text: $entry.movement)
                 TextField("Notes", text: $entry.notes).lineLimit(2)
