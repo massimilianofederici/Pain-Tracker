@@ -19,11 +19,11 @@ struct CardView: View {
                 .accessibilityAddTraits(.isHeader)
             Spacer()
             HStack {
+                Text("\(entry.location)").accessibilityLabel("\(entry.location) location")
+                Spacer()
                 Label("\(entry.recordedDate())", systemImage: "clock")
                     .accessibilityLabel("\(entry.timestamp) recorded date")
                     .labelStyle(.trailingIcon)
-                Spacer()
-                Text("\(entry.location)").accessibilityLabel("\(entry.location) location")
             }
             .font(.caption)
         }

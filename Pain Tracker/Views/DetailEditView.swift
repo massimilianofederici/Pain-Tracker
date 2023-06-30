@@ -10,6 +10,7 @@ import SwiftUI
 struct DetailEditView: View {
     @Binding var entry: Entry
     @State private var intensity = 0.0
+    @Binding var date: Date
     
     var body: some View {
         Form {
@@ -27,6 +28,11 @@ struct DetailEditView: View {
                     )
                     Text("\(PainLevel(rawValue: Int(intensity))!.name)")
                 }
+                DatePicker(
+                        "Date",
+                        selection: $date,
+                        displayedComponents: [.date]
+                    )
                 TextField("Location", text: $entry.location)
                 TextField("Movement", text: $entry.movement)
                 TextField("Notes", text: $entry.notes).lineLimit(2)
